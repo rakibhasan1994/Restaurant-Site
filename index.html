@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Site</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <!-- Header-area start -->
+     <header class="header-area">
+        <div class="con header-container flex justify-between items-center">
+            <div class="logo">
+                <img src="images/logo.svg" alt="Logo">
+            </div>
+
+            <!-- Desktop-Menu -->
+
+            <div class="menu hidden md:block">
+                <nav class="flex gap-[30px] lg:gap-[50px]">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </nav>
+            </div>
+            <div class="button flex">
+                <a href="#" class="hidden md:block">Contact Us</a>
+                <img src="images/menu.svg" class="toogle-menu md:hidden" id="toogle-menu" alt="">
+            </div>
+        </div>
+
+         <!-- mobile-menu -->
+
+        <div class="mobile-menu" id="mobile-menu">
+            <div class="logo-icon flex justify-between">
+                <img src="images/logo.svg" alt="Logo">
+                <i class="fa-sharp-duotone fa-solid fa-circle-xmark" id="cross-icon"></i>
+            </div>
+            <nav>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </nav>
+            <div class="mobile-heading flex flex-col gap-[15px]">
+            <h2>CONTACT INFO</h2>
+            <div class="location flex items-center gap-[30px]">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>MAIN STREET, MELBOURNE, AUSTRALIA</h3>
+            </div>
+            <div class="location flex gap-[30px] items-center">
+                <i class="fa-regular fa-envelope"></i>
+                <h3>INFO@FOODKING.COM</h3>
+            </div>
+            <div class="location flex items-center gap-[30px]">
+                <i class="fa-solid fa-phone"></i>
+                <h3>+11002345909</h3>
+            </div>
+            </div>
+            <a href="#" class="order-now">Order-Now</a>
+            <div class="icon flex gap-[15px]">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="#"> <i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+
+     </header>
+
+    <!-- Hero-area start -->
+     <main>
+        <!-- Hero-area start -->
+        <section class="hero-area">
+            <div class="con hero-container flex flex-col lg:flex-row justify-between gap-[50px]">
+                <div class="hero-left text-center lg:text-left">
+                <h6>Crispy, Every bite taste</h6>
+                <h1>DELICIOUS FRIED CHICKEN</h1>
+                <a href="#" class="btn">Order Now</a>
+                </div>
+                <div class="hero-right">
+                    <img src="images/chiken.png" alt="Chiken">
+                </div>
+            </div>
+        </section>
+        <!-- Hero-area end -->
+
+        <!-- About-area start -->
+         <section class="about-area">
+            <div class="con about-container">
+                <div class="about-top">
+                    <div class="heading">
+                        <h5>About Our Food</h5>
+                        <h2>Hot Delicious Item</h2>
+                    </div>
+                    <div class="button-area">
+                        <a href="#" class="active">Chicken Fry</a>
+                        <a href="#">Pizza</a>
+                        <a href="#">Burger</a>
+                        <a href="#">Deserts</a>
+                    </div>
+                </div>
+                <div class="about-bottom grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[20px]">
+                    <div class="post">
+                        <img src="images/pizza-1.png" alt="Pizza">
+                        <h3>Chicago Deep Pizza.</h3>
+                        <p>Its the perfect dining experience where Experience quick and efficient</p>
+                    </div>
+                    <div class="post">
+                        <img src="images/potato.png" alt="Pizza">
+                        <h3 class="post-heading">Chicago Deep Pizza.</h3>
+                        <p>Its the perfect dining experience where Experience quick and efficient</p>
+                    </div>
+                    <div class="post">
+                        <img src="images/chicken.png" alt="Pizza">
+                        <h3>Chicago Deep Pizza.</h3>
+                        <p>Its the perfect dining experience where Experience quick and efficient</p>
+                    </div>
+                    <div class="post">
+                        <img src="images/cheeseburger.png" alt="Pizza">
+                        <h3>Chicago Deep Pizza.</h3>
+                        <p>Its the perfect dining experience where Experience quick and efficient</p>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- About-area end -->
+
+        <!-- Contact-area start -->
+         <section class="contact-area">
+            <div class="con contact-container flex justify-center gap-[30px]">
+                <div class="box">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    <h3>Address Line</h3>
+                    <p>Bowery St, New York, 37 USA</p>
+                    <p>NY 10013,USA</p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <h3>Phone Number</h3>
+                    <p>+1255 - 568 - 6523 4374-221</p>
+                    <p>+1255 - 568 - 6523</p>
+                </div>
+                <div class="box">
+                    <i class="fa-regular fa-envelope"></i>
+                    <h3>Mail Address</h3>
+                    <p>email@example.com</p>
+                    <p>info@yourdomain.com</p>
+                </div>
+            </div>
+         </section>
+        <!-- Contact-area end -->
+
+         <!-- Form-area start -->
+          <section class="form-area">
+           <div class="con form-container flex justify-between gap-[60px]">
+            <div class="location-area">
+                <h3>Get In Touch</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit mattis faucibus odio feugiat arc dolor.</p>
+                <img src="images/map.avif" alt="Google Map">
+            </div>
+            <div class="input-area">
+                <h3>Fill Up The Form</h3>
+                <p>Your email address will not be published. Required fields are marked *</p>
+                <form action="https://formspree.io/f/mnnqgkda" method="POST" class="flex flex-col gap-[20px]">
+                    <input type="text" name="Your Name" placeholder="Your Name*">
+                    <input type="email" name="Your Email" placeholder="Email Address *">
+                    <textarea name="Massage" placeholder="Enter Your Message Here"></textarea>
+                    <input type="submit" value="Get In Touch">
+                </form>
+            </div>
+           </div>
+          </section>
+         <!-- Form-area end -->
+     </main>
+
+     <!-- Footer-area start -->
+      <footer class="footer-area bg-[#00A149] py-[40px]">
+        <div class="con footer-container flex justify-between items-center">
+            <div class="footer-left">
+                <h3>© Copyright <span>2024</span> Foodking . All Rights Reserved.</h3>
+            </div>
+            <div class="footer-right">
+                <img src="images/footer-logo.png" alt="">
+            </div>
+        </div>
+      </footer>
+     <!-- Footer-area end -->
+
+     <script>
+        const toogleMenu = document.getElementById("toogle-menu");
+        const mobileMenu = document.getElementById("mobile-menu");
+        const crossIcon = document.getElementById("cross-icon");
+
+        toogleMenu.addEventListener("click",()=>{
+            mobileMenu.style.right="0";
+        })
+        
+        crossIcon.addEventListener("click",()=>{
+            mobileMenu.style.right="-100%";
+        })
+     </script>
+</body>
+</html>

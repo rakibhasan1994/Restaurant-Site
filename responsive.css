@@ -1,0 +1,164 @@
+@media(max-width:1200px){
+    /* html{
+        font-size: 8px;
+    } */
+
+    /* Hero area start  */
+    /* .hero-area{
+        padding: 120px 0;
+    } */
+
+    /* .hero-left{
+        text-align: center;
+    } */
+/*     
+    .hero-right img{
+        width: 500px;
+        margin: 0 auto;
+    } */
+
+    /* .hero-area h1{
+        font-size:8rem;
+        margin-bottom: 20px;
+        padding: 0;
+        line-height: 100px;
+    } */
+    /* Hero area end  */
+
+    /* About area start  */
+
+    .about-area{
+        padding: 80px;
+    }
+
+    .about-top{
+        margin-bottom: 70px;
+    }
+
+    /* .about-bottom .post p{
+        width: 300px;
+    } */
+    /* About area end  */
+
+    /* Contact-area start */
+    .contact-area .box{
+        background-color: white;
+        padding: 30px 60px;
+        text-align: center;
+        border-radius: 8px;
+    }
+    /* Contact-area end */
+
+    /* Form-area start */
+    .form-area{
+        padding: 0 0;
+    }
+
+    .form-container{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    input[type=submit] {
+        width: 180px;
+    }
+    /* Form-area end */
+
+}
+
+@media(max-width:1000px){
+    .contact-area .box{
+        background-color: white;
+        padding: 30px 27px;
+        text-align: center;
+        border-radius: 8px;
+    }
+}
+
+@media(max-width:768px){
+    /* Header area start */
+    .header-area{
+        padding: 15px 0;
+    }
+     /* Header area end */
+
+     /* Hero area start  */
+     .hero-area{
+        padding: 80px 0;
+    }
+    
+     .hero-area h1{
+        font-size: 5rem;
+        line-height: 60px;
+        margin-bottom: 0;
+     }
+
+     .hero-right img{
+        width: 300px;
+        margin: 0 auto;
+    }
+     /* Hero area end  */
+
+      /* About area start  */
+      .about-area{
+        padding:80px 0;
+      }
+
+      .about-top h2 {
+        font-size: 3.5rem;
+        margin-bottom: 0;
+    }
+
+    .about-bottom .post{
+        text-align: center;
+    }
+
+    .about-bottom .post img{
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* .about-bottom .post p{
+        width: 100%;
+    }
+     */
+      .button-area{
+        display: none;
+    }
+      /* About area end  */
+
+       /* Contact-area start */
+       .contact-area{
+        padding: 30px 0;
+       }
+
+       .contact-area .box{
+        padding: 60px 60px;
+    }
+       
+       .contact-container{
+        flex-direction: column;
+       }
+       /* Contact-area end */
+
+        /* Form-area start */
+        .form-area form {
+            margin-top: 50px;
+        }
+
+        .form-area h3{
+            font-size: 2.6rem;
+        }
+
+        .form-area img {
+            margin-top: 40px;
+        }
+        /* Form-area end */
+
+        /* Footer-area start */
+        .footer-container{
+            flex-direction: column;
+            gap: 20px;
+        }
+        /* Footer-area end */
+}
